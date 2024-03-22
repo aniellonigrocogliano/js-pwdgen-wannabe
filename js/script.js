@@ -22,6 +22,7 @@ numberRandom = numberRandom.toString(); //string
 console.log(numberRandom, typeof numberRandom);
 //concatenazione dei dati con numero random
 let result2 = userName + userSurname + userColor + numberRandom; //string
+console.log(result2, typeof result2);
 //stampa nel codice html
 document.getElementById("answer").innerHTML = result;
 document.getElementById("answer2").innerHTML = result2;
